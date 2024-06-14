@@ -1,0 +1,47 @@
+*{
+    font-family: arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.container{
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    padding: 35px;
+}
+.menu input{
+    padding: 8px;
+    border: 2px solid aqua;
+}
+.menu #btnclick{
+    width: 80px;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    
+}
+#error{
+    display: block;
+    color: red;
+}
+ul{
+    width: 250px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: blueviolet;
+}
+#delete{
+    width: 70px;
+    margin-left: 120px;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+}
